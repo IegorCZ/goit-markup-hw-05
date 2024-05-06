@@ -463,5 +463,71 @@
         </div>
       </div>
     </footer>
+    <!-- ========Backdrop======== -->
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button class="modal-close-btn" type="button">
+          <svg class="modal-close-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="review-form-description">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="review-form">
+          <div class="review-form-field-wrapper">
+            <label for="user-first-name" class="review-form-label">Name</label>
+            <input
+              type="text"
+              class="review-form-input"
+              id="user-first-name"
+              name="user-first-name"
+              title="Oleksii"
+              required
+            />
+          </div>
+          <div class="review-form-field-wrapper">
+            <label for="user-tel" class="review-form-label">Phone</label>
+            <input
+              type="tel"
+              id="user-tel"
+              class="review-form-input"
+              name="user-tel"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="xxx-xxx-xx-xx"
+              required
+            />
+          </div>
+          <div class="review-form-field-wrapper">
+            <label for="user-email" class="review-form-label">Email</label>
+            <input
+              type="email"
+              id="user-email"
+              class="review-form-input"
+              name="user-email"
+              required
+            />
+          </div>
+          <div class="review-form-field-wrapper">
+            <label for="" class="review-form-label">Comment</label>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="review-form-message"
+            ></textarea>
+          </div>
+          <div class="review-form-checkbox-wrapper">
+            <input type="checkbox" class="review-form-checkbox" />
+            <label for="" class="review-form-checkbox-label"
+              >I accept the terms and conditions of the
+              <a href="" class="privacy-policy-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="review-form-submit" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
