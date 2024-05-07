@@ -560,6 +560,9 @@ background-size: cover;
     fill:#fff;
     border: none;
 }
+.modal-close-btn-icon{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .review-form-description{
     max-width: 360px;
