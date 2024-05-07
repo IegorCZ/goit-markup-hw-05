@@ -444,7 +444,14 @@ background-size: cover;
 .subscribe-form {
     display: flex;
     column-gap: 8px;
-    padding-left: 80px;
+    margin-left: auto;
+}
+.subscribe-text{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
 }
 .subscribe-form-input{
     border: 1px solid #fff;
@@ -460,6 +467,19 @@ background-size: cover;
         line-height: 2;
         letter-spacing: 0.04em;
         color: #fff;
+}
+.subscribe-form-submit {
+    min-width: 165px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8 24px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 24px;
 }
 /* ========Backdrop styles======== */
 .backdrop{
@@ -507,6 +527,7 @@ background-size: cover;
     background-color:#404bbf;
     fill:#fff
 }
+
 .review-form-description{
     max-width: 360px;
         font-weight: 500;
