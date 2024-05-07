@@ -441,6 +441,9 @@ background-size: cover;
     height: 24px;
 
 }
+.subscribe-form-form{
+    margin-left: 80px;
+}
 .subscribe-form {
     display: flex;
     gap: 24px;
