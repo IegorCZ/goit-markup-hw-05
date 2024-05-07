@@ -437,9 +437,10 @@ background-size: cover;
 }
 .social-list-icon{
     fill:#f4f4fd;
-    width: 24px;
-    height: 24px;
-
+}
+.social-list-item{
+    width:40px;
+    height:40px;
 }
 .subscribe-form-form{
     margin-left: 80px;
